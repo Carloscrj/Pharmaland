@@ -194,7 +194,7 @@ public class PPedido extends JPanel {
 		add(scrpTblPe);
 		
 		tblPed = new JTable();
-		tblPed.setFont(new Font("Tahoma", Font.PLAIN, 7));
+		tblPed.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		scrpTblPe.setViewportView(tblPed);
 		
 		configurarTabla();
